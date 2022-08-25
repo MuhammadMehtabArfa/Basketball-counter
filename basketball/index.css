@@ -1,0 +1,45 @@
+
+body {
+ margin: 0;
+ background-image: url("vv.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+h3{
+ color: white;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 30px
+}
+
+.container {
+ display: flex;
+ justify-content: space-around;
+}
+p{
+ font-family: 'Times New Roman', Times, serif;
+ background: black;
+ color: red;
+ padding: 4px;
+ font-size: 40px;
+ min-width: 50px;
+ max-width: fit-content;
+ padding-left: 10px;
+ margin-left: 10px;
+ border: 3px solid red;
+ 
+}
+button{
+ cursor: pointer;
+ 
+}
+button:hover{
+font-weight: bold;
+color: yellow;
+background: black;
+transform:  scale(1.12);
+}
+.save-el{
+ max-width: 200px;
+}
+
+
